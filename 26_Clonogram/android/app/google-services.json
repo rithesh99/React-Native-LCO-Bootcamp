@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "99381171805",
+    "firebase_url": "https://clonogramrn.firebaseio.com",
+    "project_id": "clonogramrn",
+    "storage_bucket": "clonogramrn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99381171805:android:38e26f053733168f8b1fb4",
+        "android_client_info": {
+          "package_name": "com.clonogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99381171805-fpcgmrvabobcvc4uc0jhvarmrcuo05r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNY6WfAcjE4PKcAyZuDwCkfon2E7PAZ1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99381171805-fpcgmrvabobcvc4uc0jhvarmrcuo05r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

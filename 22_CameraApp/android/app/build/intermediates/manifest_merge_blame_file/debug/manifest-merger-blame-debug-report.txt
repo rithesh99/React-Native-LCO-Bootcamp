@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.profilepic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /home/rithesh/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /home/rithesh/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:5-65
+14-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:22-62
+15
+16    <uses-feature
+16-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera"
+17-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+18        android:required="false" />
+18-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+21        android:required="false" />
+21-->[:react-native-camera] /home/rithesh/Desktop/lcorn-master/profilePic/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+22
+23    <application
+23-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:6:5-25:19
+24        android:name="com.profilepic.MainApplication"
+24-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:7:7-38
+25        android:allowBackup="false"
+25-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:11:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /home/rithesh/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:9:7-41
+29        android:label="@string/app_name"
+29-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:8:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:10:7-52
+31        android:theme="@style/AppTheme"
+31-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:12:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/debug/AndroidManifest.xml:7:18-53
+33        <activity
+33-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:13:7-23:18
+34            android:name="com.profilepic.MainActivity"
+34-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:14:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:16:9-86
+36            android:label="@string/app_name"
+36-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:15:9-41
+37            android:launchMode="singleTask"
+37-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:17:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:18:9-51
+39            <intent-filter>
+39-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:19:9-22:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:20:13-65
+40-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:20:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:21:13-73
+42-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:21:23-70
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:24:7-84
+45-->/home/rithesh/Desktop/lcorn-master/profilePic/android/app/src/main/AndroidManifest.xml:24:17-81
+46        <activity
+46-->[com.google.android.gms:play-services-base:16.0.1] /home/rithesh/.gradle/caches/transforms-2/files-2.1/4d06447fcd73ee7b0410c7b53608b046/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:16.0.1] /home/rithesh/.gradle/caches/transforms-2/files-2.1/4d06447fcd73ee7b0410c7b53608b046/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:16.0.1] /home/rithesh/.gradle/caches/transforms-2/files-2.1/4d06447fcd73ee7b0410c7b53608b046/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:16.0.1] /home/rithesh/.gradle/caches/transforms-2/files-2.1/4d06447fcd73ee7b0410c7b53608b046/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:16.1.0] /home/rithesh/.gradle/caches/transforms-2/files-2.1/e3784801375dfe46ffe4dc9a3005cb46/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:16.1.0] /home/rithesh/.gradle/caches/transforms-2/files-2.1/e3784801375dfe46ffe4dc9a3005cb46/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:16.1.0] /home/rithesh/.gradle/caches/transforms-2/files-2.1/e3784801375dfe46ffe4dc9a3005cb46/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+54    </application>
+55
+56</manifest>
